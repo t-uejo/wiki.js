@@ -2,12 +2,13 @@
 title: 【Spring道場】モジュール3：Integration Test を実装する
 description: 
 published: true
-date: 2024-11-10T04:47:45.721Z
+date: 2024-11-10T04:48:51.663Z
 tags: spring dojo
 editor: markdown
 dateCreated: 2024-11-01T04:21:07.502Z
 ---
 
+## 03-08_テストカバレッジはほどほどに
 - なぜカバレッジを追求するのは良くないのか？
 
 ## 03-10_Spring での統合テスト
