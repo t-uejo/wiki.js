@@ -2,7 +2,7 @@
 title: 【Spring道場】モジュール3：Integration Test を実装する
 description: 
 published: true
-date: 2024-11-10T04:48:51.663Z
+date: 2024-11-11T11:55:24.189Z
 tags: spring dojo
 editor: markdown
 dateCreated: 2024-11-01T04:21:07.502Z
@@ -23,3 +23,6 @@ dateCreated: 2024-11-01T04:21:07.502Z
 
 ## 03-16_トップページへのアクセスをテストする
 - OAuthとかの統合テストもこれでできるか？
+
+## 03-17_リファクタリング：テストメソッドの実行順に依存しないようにする
+- 成功も失敗も同じ@Testの中で実行してもいいのだろうか？
