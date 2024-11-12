@@ -2,8 +2,8 @@
 title: 【Spring道場】モジュール2：API にセッションベース認証を実装する
 description: 
 published: true
-date: 2024-11-05T13:16:46.309Z
-tags: spring boot, spring dojo
+date: 2024-11-12T13:05:50.147Z
+tags: spring boot, spring dojo, spring security
 editor: markdown
 dateCreated: 2024-10-16T13:09:56.584Z
 ---
