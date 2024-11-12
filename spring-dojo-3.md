@@ -2,8 +2,8 @@
 title: 【Spring道場】モジュール3：Integration Test を実装する
 description: 
 published: true
-date: 2024-11-11T11:56:33.009Z
-tags: spring dojo
+date: 2024-11-12T11:50:15.311Z
+tags: spring dojo, 統合テスト
 editor: markdown
 dateCreated: 2024-11-01T04:21:07.502Z
 ---
