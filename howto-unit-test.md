@@ -2,11 +2,15 @@
 title: 単体テストの考え方/使い方
 description: 
 published: true
-date: 2024-11-12T11:49:55.122Z
+date: 2024-11-12T12:04:29.865Z
 tags: 単体テスト, 統合テスト
 editor: markdown
 dateCreated: 2024-11-12T11:49:55.122Z
 ---
 
-# Header
-Your content here
+# 統合テスト
+## 8.1 統合テストとは？
+- 過度に複雑なコードとは何か。
+- 単体テストはドメインモデルをテストするとあるが、Spring Bootの場合、サービス層にあたるのか。
+- リポジトリ層は単体テストに含めるべきか。
+
