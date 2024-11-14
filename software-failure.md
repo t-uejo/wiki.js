@@ -2,7 +2,7 @@
 title: ソフトウェア開発現場の「失敗」集めてみた。 42の失敗事例で学ぶチーム開発のうまい進めかた
 description: 
 published: true
-date: 2024-11-14T11:22:12.512Z
+date: 2024-11-14T11:26:02.532Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-14T10:47:21.069Z
