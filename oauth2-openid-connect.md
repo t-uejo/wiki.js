@@ -2,7 +2,7 @@
 title: 【Udemy】手を動かして理解する！OAuth2 / OpenID Connect の基礎と活用
 description: 
 published: true
-date: 2024-11-16T02:54:49.576Z
+date: 2024-11-16T02:59:26.946Z
 tags: oauth2, open id connect
 editor: markdown
 dateCreated: 2024-11-04T03:26:29.847Z
@@ -11,6 +11,8 @@ dateCreated: 2024-11-04T03:26:29.847Z
 ## OAuth2の仕組み
 ### なぜ認可コードが必要なのか？
 - アクセストークンをブラウザに渡すと盗まれるなどの危険性があるため、ブラウザに触れさせずにしたいから。
+
+#### どんなリスク？
 - HTTPSを使えばリスクは減らせるが、HTTPなどを使うと盗まれるリスクあり。
 - XSSなどの攻撃で抜き取られるリスクあり。
 
