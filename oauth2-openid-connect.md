@@ -2,7 +2,7 @@
 title: 【Udemy】手を動かして理解する！OAuth2 / OpenID Connect の基礎と活用
 description: 
 published: true
-date: 2024-11-17T02:10:14.163Z
+date: 2024-11-17T02:10:28.902Z
 tags: oauth2, open id connect
 editor: markdown
 dateCreated: 2024-11-04T03:26:29.847Z
@@ -34,6 +34,6 @@ dateCreated: 2024-11-04T03:26:29.847Z
 ### インプリシットグラントとは？認可コードとの違いは？
 - client_secretがない。
 - 直接ブラウザがアクセストークンを受け取る。
-- 脆弱性への体制
+- 脆弱性への耐性が弱い。
 - 現在はあまり推奨されていない。
 - 代わりにPKCEが推奨されている。
