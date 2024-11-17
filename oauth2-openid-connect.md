@@ -2,7 +2,7 @@
 title: 【Udemy】手を動かして理解する！OAuth2 / OpenID Connect の基礎と活用
 description: 
 published: true
-date: 2024-11-16T02:59:26.946Z
+date: 2024-11-17T01:20:00.307Z
 tags: oauth2, open id connect
 editor: markdown
 dateCreated: 2024-11-04T03:26:29.847Z
@@ -22,3 +22,6 @@ dateCreated: 2024-11-04T03:26:29.847Z
 	- 発行されてから短時間で無効にする
   - 有効期限は最大でも10分を推奨
   - 
+  
+ ### ref
+ https://openid-foundation-japan.github.io/rfc6749.ja.html
