@@ -2,7 +2,7 @@
 title: 【Udemy】手を動かして理解する！OAuth2 / OpenID Connect の基礎と活用
 description: 
 published: true
-date: 2024-11-17T02:14:46.849Z
+date: 2024-11-17T02:40:42.596Z
 tags: oauth2, open id connect
 editor: markdown
 dateCreated: 2024-11-04T03:26:29.847Z
@@ -41,3 +41,16 @@ ref.
 - 脆弱性への耐性が弱い。
 - 現在はあまり推奨されていない。
 - 代わりにPKCEが推奨されている。
+
+### リフレッシュトークンの有効期限は長期間のため、結局こっちが流出したらアクセストークンが取得されて使う意味がないのでは？
+- 
+
+
+
+
+
+
+
+
+
+
