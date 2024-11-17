@@ -2,7 +2,7 @@
 title: 【Udemy】手を動かして理解する！OAuth2 / OpenID Connect の基礎と活用
 description: 
 published: true
-date: 2024-11-17T02:10:28.902Z
+date: 2024-11-17T02:13:06.311Z
 tags: oauth2, open id connect
 editor: markdown
 dateCreated: 2024-11-04T03:26:29.847Z
@@ -29,9 +29,12 @@ dateCreated: 2024-11-04T03:26:29.847Z
  https://openid-foundation-japan.github.io/rfc6749.ja.html
  
  ### クライアントにはコンフィデンシャルとパブリックがあるが、どのような違いか？
-- 
+- 認可コードグラントにおいて使用可能なクライアントの形態がコンフィデンシャルクライアント。
+- バックエンドが存在していて、秘匿情報をクライアントから取得できない形態。
+- パブリッククライアントはブラウザなどのアプリケーションが直接、秘匿情報を扱う。
 
 ### インプリシットグラントとは？認可コードとの違いは？
+- パブリッククライアントで使う。
 - client_secretがない。
 - 直接ブラウザがアクセストークンを受け取る。
 - 脆弱性への耐性が弱い。
