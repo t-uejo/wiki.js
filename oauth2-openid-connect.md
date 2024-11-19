@@ -2,7 +2,7 @@
 title: 【Udemy】手を動かして理解する！OAuth2 / OpenID Connect の基礎と活用
 description: 
 published: true
-date: 2024-11-19T11:18:38.106Z
+date: 2024-11-19T11:22:06.970Z
 tags: oauth2, open id connect
 editor: markdown
 dateCreated: 2024-11-04T03:26:29.847Z
@@ -49,7 +49,9 @@ dateCreated: 2024-11-04T03:26:29.847Z
 
 ### jwks_uriとは？
 - `.well-known/openid-configuration`でjsonが定義されており、そのキーのひとつ。
-- このキーのバリューとなるURLは公開鍵が格納されているURLを表す。
+- このキーのバリューとなるURLは公開鍵が格納されているURLを表す。（それもJSONで定義されている）
+- 各プロバイダーのOpenID Configuration↓
+[公開されている OpenID Configuration まとめ](https://zenn.dev/nhosoya/articles/c5a897b9b1974ae4ada6)
 
 ### kidとは？
 - kidとはJWTのヘッダーで定義されている非対称暗号方式で利用する公開鍵のIDのこと。
@@ -62,9 +64,6 @@ dateCreated: 2024-11-04T03:26:29.847Z
   "kid": "some-kid-id"
 }
 ```
-
-
-
 
 
 
