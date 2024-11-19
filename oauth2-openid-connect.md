@@ -2,7 +2,7 @@
 title: 【Udemy】手を動かして理解する！OAuth2 / OpenID Connect の基礎と活用
 description: 
 published: true
-date: 2024-11-19T11:18:16.007Z
+date: 2024-11-19T11:18:38.106Z
 tags: oauth2, open id connect
 editor: markdown
 dateCreated: 2024-11-04T03:26:29.847Z
@@ -54,6 +54,7 @@ dateCreated: 2024-11-04T03:26:29.847Z
 ### kidとは？
 - kidとはJWTのヘッダーで定義されている非対称暗号方式で利用する公開鍵のIDのこと。
 - 検証するときは、上記のjwks_uriのkidを使うことになる。
+- JWTのヘッダー↓
 ```
 {
 	"typ": "JWT",
