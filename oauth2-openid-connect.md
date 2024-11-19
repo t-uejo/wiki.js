@@ -2,7 +2,7 @@
 title: 【Udemy】手を動かして理解する！OAuth2 / OpenID Connect の基礎と活用
 description: 
 published: true
-date: 2024-11-17T22:52:24.816Z
+date: 2024-11-19T10:46:04.900Z
 tags: oauth2, open id connect
 editor: markdown
 dateCreated: 2024-11-04T03:26:29.847Z
@@ -24,9 +24,7 @@ dateCreated: 2024-11-04T03:26:29.847Z
   - クライアントは2回以上認可コードを使用してはならない。
   - 認可サーバは2回以上の場合拒否しなければいけない。
   - 認可コードを基に発行されたこれまでのすべてのトークンを無効化すべきである。
-  
-ref.
- https://openid-foundation-japan.github.io/rfc6749.ja.html
+ - ref. https://openid-foundation-japan.github.io/rfc6749.ja.html
  
  ### クライアントにはコンフィデンシャルとパブリックがあるがどのような違いか？
 - 認可コードグラントにおいて使用可能なクライアントの形態がコンフィデンシャルクライアント。
