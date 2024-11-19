@@ -2,7 +2,7 @@
 title: 【Udemy】手を動かして理解する！OAuth2 / OpenID Connect の基礎と活用
 description: 
 published: true
-date: 2024-11-19T10:46:04.900Z
+date: 2024-11-19T11:15:34.423Z
 tags: oauth2, open id connect
 editor: markdown
 dateCreated: 2024-11-04T03:26:29.847Z
@@ -46,8 +46,18 @@ dateCreated: 2024-11-04T03:26:29.847Z
 - そのため、アクセストークン同様にリフレッシュトークンもバックエンドで管理できるため安全性は担保できる。
 
 ### リフレッシュトークンのメリットとは？
-- 
 
+### jwks_uriとは？
+- `.well-known/openid-configuration`でjsonが定義されており、そのキーのひとつ。
+- このキーのバリューとなるURLは公開鍵が格納されているURLを表す。
+
+### kidとは？
+- このURLもにkidがあり、JWTのヘッダーで定義されている
+```
+{
+	"typ": "JWT"
+}
+```
 
 
 
