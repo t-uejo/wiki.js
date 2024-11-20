@@ -2,7 +2,7 @@
 title: 【TERASOLUNA】2.3. はじめてのSpring MVCアプリケーション
 description: 
 published: true
-date: 2024-11-20T12:42:26.029Z
+date: 2024-11-20T12:42:52.454Z
 tags: terasoluna, spring mvc
 editor: markdown
 dateCreated: 2024-11-20T11:31:03.707Z
@@ -64,7 +64,7 @@ public class SpringMvcConfig implements WebMvcConfigurer {
 ### (3)について
 - > ユーザーが入力した値は、フォームの送信時に name フィールドとしてサーバーに送信され、echoForm オブジェクトの name プロパティに自動的にマッピングされます。
 - > name プロパティにバインドする役割を持ち、データの双方向のやり取り（表示と送信）を容易にする。
-- この表示処理で仮にformのnameに値を指定していれば、バインドされて表示されると。
+- 仮にこの表示処理時にformのnameに値を指定していれば、バインドされて表示されると。
 - さらに、短縮記法を使っているらしく、
 - > *{name} は、フォーム全体に設定された th:object="${echoForm}" のオブジェクトから、name プロパティを参照しています。この短縮記法により、th:object を基準にプロパティを記述できるようになります。
 
