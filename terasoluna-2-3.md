@@ -2,7 +2,7 @@
 title: 【TERASOLUNA】2.3. はじめてのSpring MVCアプリケーション
 description: 
 published: true
-date: 2024-11-20T12:06:45.225Z
+date: 2024-11-20T12:07:32.140Z
 tags: terasoluna, spring mvc
 editor: markdown
 dateCreated: 2024-11-20T11:31:03.707Z
@@ -33,6 +33,7 @@ public class SpringMvcConfig implements WebMvcConfigurer {
 - 仮に@ComponentScanを使わない場合、いくつものController、Service、Repositoryクラスを管理するConfigクラスを用意して、1つずつ登録していかなければならない。
 - そのような煩雑さをなくすのが@ComponentScanである。
 - クラスに@Controllerなどを付与するだけで自動で検出され、Springコンテナに登録することができる。
+- 手動管理から解放される。
 
 ## ViewResolverとは？
 - ViewResolverがビュー名を解析し、対象のビューを決定する。
