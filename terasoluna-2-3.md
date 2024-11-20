@@ -2,7 +2,7 @@
 title: 【TERASOLUNA】2.3. はじめてのSpring MVCアプリケーション
 description: 
 published: true
-date: 2024-11-20T12:08:38.175Z
+date: 2024-11-20T12:37:54.995Z
 tags: terasoluna, spring mvc
 editor: markdown
 dateCreated: 2024-11-20T11:31:03.707Z
@@ -40,3 +40,39 @@ public class SpringMvcConfig implements WebMvcConfigurer {
 
 ## ViewResolverとは？
 - ViewResolverがビュー名を解析し、対象のビューを決定する。
+
+## Thymeleafにおける各フィールドについて
+```java
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"> <!--/* (1) */-->
+<head>
+<title>Echo Application</title>
+</head>
+<body>
+    <!--/* (2) */-->
+    <form th:object="${echoForm}" th:action="@{/echo/hello}" method="post">
+        <label for="name">Input Your Name:</label>
+        <input th:field="*{name}"> <!--/* (3) */-->
+        <input type="submit">
+    </form>
+</body>
+</html>
+```
+### (2)について
+- 以下の(2)では、th:object属性にフォームオブジェクトの名前を指定している。
+- ThymeleafのリンクURL式@{}に “/“から始まるパスを記述することでコンテキスト相対パスが生成され、th:action属性に指定できる。
+
+### (3)について
+- ユーザーが入力した値は、フォームの送信時に name フィールドとしてサーバーに送信され、echoForm オブジェクトの name プロパティに自動的にマッピングされます。
+- name プロパティにバインドする役割を持ち、データの双方向のやり取り（表示と送信）を容易にする。
+
+
+
+
+
+
+
+
+
+
+
