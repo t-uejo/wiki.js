@@ -2,7 +2,7 @@
 title: 【TERASOLUNA】2.3. はじめてのSpring MVCアプリケーション
 description: 
 published: true
-date: 2024-11-20T12:37:54.995Z
+date: 2024-11-20T12:39:33.493Z
 tags: terasoluna, spring mvc
 editor: markdown
 dateCreated: 2024-11-20T11:31:03.707Z
@@ -60,11 +60,12 @@ public class SpringMvcConfig implements WebMvcConfigurer {
 ```
 ### (2)について
 - 以下の(2)では、th:object属性にフォームオブジェクトの名前を指定している。
-- ThymeleafのリンクURL式@{}に “/“から始まるパスを記述することでコンテキスト相対パスが生成され、th:action属性に指定できる。
 
 ### (3)について
-- ユーザーが入力した値は、フォームの送信時に name フィールドとしてサーバーに送信され、echoForm オブジェクトの name プロパティに自動的にマッピングされます。
-- name プロパティにバインドする役割を持ち、データの双方向のやり取り（表示と送信）を容易にする。
+- > ユーザーが入力した値は、フォームの送信時に name フィールドとしてサーバーに送信され、echoForm オブジェクトの name プロパティに自動的にマッピングされます。
+- > name プロパティにバインドする役割を持ち、データの双方向のやり取り（表示と送信）を容易にする。
+- また、短縮記法を使っているらしく、
+- > *{name} は、フォーム全体に設定された th:object="${echoForm}" のオブジェクトから、name プロパティを参照しています。この短縮記法により、th:object を基準にプロパティを記述できるようになります。
 
 
 
