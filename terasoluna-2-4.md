@@ -2,7 +2,7 @@
 title: 2.4. アプリケーションのレイヤ化
 description: 
 published: true
-date: 2024-11-26T11:03:37.110Z
+date: 2024-11-26T11:05:02.310Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-26T10:57:34.913Z
